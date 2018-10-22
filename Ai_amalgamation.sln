@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ai_amalgamation", "Ai_amalgamation\Ai_amalgamation.csproj", "{3B4351B9-8789-408D-BA96-D2B28D785EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{7585DC8F-BEC1-4A09-B56F-05182D8D678B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIMLbot-NetFramework", "AIMLbot\AIMLbot-NetFramework.csproj", "{9C87D82C-0E27-4995-A2CB-72BCB84EF2E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25EB13A6-550C-448C-8B96-C05865CE10E9}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B4351B9-8789-408D-BA96-D2B28D785EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4351B9-8789-408D-BA96-D2B28D785EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4351B9-8789-408D-BA96-D2B28D785EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4351B9-8789-408D-BA96-D2B28D785EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7585DC8F-BEC1-4A09-B56F-05182D8D678B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7585DC8F-BEC1-4A09-B56F-05182D8D678B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7585DC8F-BEC1-4A09-B56F-05182D8D678B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7585DC8F-BEC1-4A09-B56F-05182D8D678B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C87D82C-0E27-4995-A2CB-72BCB84EF2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C87D82C-0E27-4995-A2CB-72BCB84EF2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C87D82C-0E27-4995-A2CB-72BCB84EF2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C87D82C-0E27-4995-A2CB-72BCB84EF2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

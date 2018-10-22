@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+
+	<category>
+
+		<pattern>*</pattern>
+
+		<template>urgh</template>
+
+	</category>
+
+	<category>
+
+		<pattern>What is a pathogen</pattern>
+
+		<template>A pathogen is a organism (usually micro) that causes disease</template>
+
+	</category>
+
+	<category>
+
+		<pattern>pathogen ^</pattern>
+
+		<template><srai>What is a pathogen</srai></template>
+
+	</category>
+
+</aiml>

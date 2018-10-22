@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml>
+	<category>
+		<pattern>Rariolu</pattern>
+		<template>I love him :*</template>
+	</category>
+	<category>
+		<pattern>fortogamar</pattern>
+		<template>The greatest hero in American history
+		</template>
+	</category>
+
+	<category>
+   	<pattern>RELOAD AIML FILES</pattern>
+   		<template>
+        	Okay.
+        		<think>
+            		<learn>./aiml/*.aiml</learn>
+        		</think>
+    		</template>
+	</category>
+</aiml>
