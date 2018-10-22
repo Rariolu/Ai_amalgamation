@@ -69,7 +69,7 @@ namespace Demo
                     return;
                 }
                 Console.WriteLine("AIML: " + cr.GetOutput(command));
-            }//g
+            }
         }
         static void DoubleAIML()
         {
