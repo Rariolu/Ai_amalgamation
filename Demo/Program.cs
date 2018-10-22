@@ -20,7 +20,6 @@ namespace Demo
         };
         static void Main(string[] args)
         {
-            
             while(true)
             {
                 Console.WriteLine("Enter command:");
@@ -54,6 +53,21 @@ namespace Demo
             }
 
         }
+        static double EnglishPercentage(string text)
+        {
+            text = text.Replace(".", "").Replace(",", "").Replace("!","").Replace("?","");
+            text = text.ToLower();
+            double eCount = 0;
+            string[] words = text.Split(' ');
+            foreach(string word in words)
+            {
+                if (Words.Contains(word))
+                {
+                    eCount++;
+                }
+            }
+            return (eCount*100d) / words.Length;
+        }
         static void SpeakToAIML()
         {
             Console.WriteLine("Type \"exit\" to stop chatting to this pleb.");
@@ -68,7 +82,8 @@ namespace Demo
                     Console.WriteLine("AIML: Goodbye.");
                     return;
                 }
-                Console.WriteLine("AIML: " + cr.GetOutput(command));
+                string response = cr.GetOutput(command);
+                Console.WriteLine("AIML: {0}; {1}%",response,EnglishPercentage(response));
             }
         }
         static void DoubleAIML()
@@ -85,6 +100,14 @@ namespace Demo
                 textB = botB.GetOutput(textA);
                 Console.WriteLine("botB: {0}", textB);
             }
+        }
+        static void Lower()
+        {
+            for(int i = 0; i < Words.Length; i++)
+            {
+                _words[i] = _words[i].ToLower();
+            }
+            File.WriteAllLines(wordsfile, Words);
         }
         const string wordsfile = "..\\..\\..\\words.txt";
         static string[] _words = new string[0];
