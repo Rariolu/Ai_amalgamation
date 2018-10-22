@@ -12,6 +12,56 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{25EB13A6-550C-448C-8B96-C05865CE10E9}"
 	ProjectSection(SolutionItems) = preProject
 		README.txt = README.txt
+		words.txt = words.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{0937F545-14B9-40D7-8C46-69A7F01B3335}"
+	ProjectSection(SolutionItems) = preProject
+		config\DefaultPredicates.xml = config\DefaultPredicates.xml
+		config\GenderSubstitutions.xml = config\GenderSubstitutions.xml
+		config\Person2Substitutions.xml = config\Person2Substitutions.xml
+		config\PersonSubstitutions.xml = config\PersonSubstitutions.xml
+		config\Settings.xml = config\Settings.xml
+		config\Splitters.xml = config\Splitters.xml
+		config\Substitutions.xml = config\Substitutions.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aiml", "aiml", "{DA51117F-5553-4C19-8704-697EB5FA361A}"
+	ProjectSection(SolutionItems) = preProject
+		config\aiml\AI.aiml = config\aiml\AI.aiml
+		config\aiml\Atomic.aiml = config\aiml\Atomic.aiml
+		config\aiml\Biography.aiml = config\aiml\Biography.aiml
+		config\aiml\Biology.aiml = config\aiml\Biology.aiml
+		config\aiml\Bot.aiml = config\aiml\Bot.aiml
+		config\aiml\Botmaster.aiml = config\aiml\Botmaster.aiml
+		config\aiml\Client.aiml = config\aiml\Client.aiml
+		config\aiml\Computers.aiml = config\aiml\Computers.aiml
+		config\aiml\CustomTagTest.aiml = config\aiml\CustomTagTest.aiml
+		config\aiml\Default.aiml = config\aiml\Default.aiml
+		config\aiml\Emotion.aiml = config\aiml\Emotion.aiml
+		config\aiml\Food.aiml = config\aiml\Food.aiml
+		config\aiml\Fortogamar.aiml = config\aiml\Fortogamar.aiml
+		config\aiml\Geography.aiml = config\aiml\Geography.aiml
+		config\aiml\History.aiml = config\aiml\History.aiml
+		config\aiml\Inquiry.aiml = config\aiml\Inquiry.aiml
+		config\aiml\Interjection.aiml = config\aiml\Interjection.aiml
+		config\aiml\IU.aiml = config\aiml\IU.aiml
+		config\aiml\Knowledge.aiml = config\aiml\Knowledge.aiml
+		config\aiml\Literature.aiml = config\aiml\Literature.aiml
+		config\aiml\Money.aiml = config\aiml\Money.aiml
+		config\aiml\Movies.aiml = config\aiml\Movies.aiml
+		config\aiml\Music.aiml = config\aiml\Music.aiml
+		config\aiml\Personality.aiml = config\aiml\Personality.aiml
+		config\aiml\Philosophy.aiml = config\aiml\Philosophy.aiml
+		config\aiml\Pickup.aiml = config\aiml\Pickup.aiml
+		config\aiml\Predicates.aiml = config\aiml\Predicates.aiml
+		config\aiml\Reduce.aiml = config\aiml\Reduce.aiml
+		config\aiml\Reductions.aiml = config\aiml\Reductions.aiml
+		config\aiml\Salutations.aiml = config\aiml\Salutations.aiml
+		config\aiml\Science.aiml = config\aiml\Science.aiml
+		config\aiml\Stack.aiml = config\aiml\Stack.aiml
+		config\aiml\Stories.aiml = config\aiml\Stories.aiml
+		config\aiml\That.aiml = config\aiml\That.aiml
 	EndProjectSection
 EndProject
 Global
@@ -35,5 +85,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA51117F-5553-4C19-8704-697EB5FA361A} = {0937F545-14B9-40D7-8C46-69A7F01B3335}
 	EndGlobalSection
 EndGlobal
